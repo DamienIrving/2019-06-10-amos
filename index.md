@@ -209,13 +209,17 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 {% endcomment %}
 <h2 id="schedule">Schedule</h2>
 
-{% if page.carpentry == "swc" %}
-  {% include sc/schedule.html %}
-{% elsif page.carpentry == "dc" %}
-  {% include dc/schedule.html %}
-{% elsif page.carpentry == "lc" %}
-  {% include lc/schedule.html %}
-{% endif %}
+<div class="row">
+  <div class="col-md-9">
+    <table class="table table-striped">
+      <tr><td>08:30-10:30</td> <td>PyAOS software stack, software installation using conda, data visualisation</td></tr>
+      <tr><td>10:30-11:00</td> <td>Morning coffee break</td></tr>
+      <tr><td>11:00-12:30</td> <td>Functions, command line programs, version control</td></tr>
+      <tr><td>12:30-01:30</td> <td>Lunch</tr>
+      <tr><td>01:30-05:30</td> <td>Afternoon workshops from NCI or IMOS</td></tr>
+    </table>
+  </div>
+</div>
 
 {% comment %}
   Collaborative Notes
