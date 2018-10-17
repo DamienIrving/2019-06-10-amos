@@ -46,6 +46,8 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 </iframe>
 {% endif %}
 
+<h4>Registrations open soon.</h4>
+
 <h2 id="general">General Information</h2>
 
 {% comment %}
@@ -252,13 +254,9 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 {% endcomment %}
 <h2 id="syllabus">Syllabus</h2>
 
-{% if page.carpentry == "swc" %}
-  {% include sc/syllabus.html %}
-{% elsif page.carpentry == "dc" %}
-  {% include dc/syllabus.html %}
-{% elsif page.carpentry == "lc" %}
-  {% include lc/syllabus.html %}
-{% endif %}
+<p>
+The complete lessons notes can be found <a href="https://carpentrieslab.github.io/python-aos-lesson/">here</a>.
+</p>
 
 <hr/>
 
