@@ -46,7 +46,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 </iframe>
 {% endif %}
 
-<h4>Registrations open soon.</h4>
+<h4><a href="https://amos2019.org.au/registration/">Register at the AMOS-ICTMO 2019 conference website</a></h4>
 
 <h2 id="general">General Information</h2>
 
