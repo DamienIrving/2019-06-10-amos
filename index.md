@@ -247,9 +247,12 @@ The complete lesson notes can be found at <a href="https://carpentrieslab.github
 
 <p>
   Software installation instructions and links to download the workshop
-  data files can be found at: <a href="https://carpentrieslab.github.io/python-aos-lesson/setup.html">https://carpentrieslab.github.io/python-aos-lesson/setup.html</a>.
+  data files can be found at <a href="https://carpentrieslab.github.io/python-aos-lesson/setup.html">https://carpentrieslab.github.io/python-aos-lesson/setup.html</a>.
+</p>
+
+<p>
   In order to avoid wifi bandwidth issues at the workshop,
-  we ask that you also follow the optional python package installation instructions at that webpage.
+  we also ask that everyone follows the optional python package installation instructions at that page.
   You should select the "default" instructions for your operating system
   unless you already have experience using conda environments.
 </p>
